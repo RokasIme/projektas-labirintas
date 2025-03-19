@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.white-back {
+  display: flex;
+  background-color: #fff;
+  height: 300px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  position: relative;
+}
+
+.cross {
+  display: flex;
+  color: red;
+  position: absolute;
+  top: 102px;
+  left: 605px;
+  font-size: 30px;
+  font-weight: bold;
+  color: gray;
+}
+
+.labirints {
+  top: 150px;
+  left: 200px;
+  position: absolute;
+}
+
+h1 {
+  color: green;
+  position: absolute;
+  top: 155px;
+  left: 400px;
+  font-size: 90px;
+}
+
+.upper-text {
+  color: green;
+  font-size: 10px;
+  position: absolute;
+  top: 260px;
+  left: 400px;
+}
+
+.lorem1 {
+  position: absolute;
+  font-size: 8px;
+  top: 285px;
+  left: 400px;
+}
+
+.lorem2 {
+  position: absolute;
+  font-size: 8px;
+  top: 295px;
+  left: 400px;
+}
+
+.btn {
+  position: absolute;
+  font-size: 8px;
+  top: 312px;
+  left: 400px;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  box-shadow: 1px 3px 3px green;
+}

@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "dead-server": "^1.0.9"
-  }
+  },
+  "name": "-y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=5411",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokasIme/projektas-labirintas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RokasIme/projektas-labirintas/issues"
+  },
+  "homepage": "https://github.com/RokasIme/projektas-labirintas#readme",
+  "description": ""
 }
